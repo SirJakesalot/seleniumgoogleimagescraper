@@ -10,6 +10,10 @@ for query in queries:
 scraper.download_image_links('img/repository')
 ```
 Tip: After collecting all the links, break them up into chunks and leverage the [multiprocessing library](https://docs.python.org/3.6/library/multiprocessing.html#introduction)! Hopefully I can throw something together demonstrating this.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CnCb3VlcAUg/0.jpg)](https://www.youtube.com/watch?v=CnCb3VlcAUg)
+The above example is seen performing queries for ['minecraft', 'minecraft pig'].
+
 ## Installation
 
 ### selenium setup
